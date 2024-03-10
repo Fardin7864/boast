@@ -1,3 +1,4 @@
+import Featured from "@/client/Featured";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <div className=" max-w-7xl mx-auto px-2 md:px-5">
         <Navbar />
         <Hero/>
+        <Featured/>
       </div>
     </main>
   );
