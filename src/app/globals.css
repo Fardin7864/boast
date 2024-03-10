@@ -9,9 +9,25 @@
   transition: color 0.5s ease-in-out; 
 }
 
+.button-primary {
+  background: linear-gradient(to right, #fd7e40, #ffc102);
+  color: white;
+  transition: color 0.5s ease-in-out; 
+}
+
+.button-primary:hover {
+  background-image: linear-gradient(to right, #81b8fd, #a1df70);
+  color: black;
+  transition: background-image 0.5s ease-in-out, color 0.5s ease-in-out; 
+}
+
+.color-text{
+  background: linear-gradient(to right, #ff4e50, #f9d423);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .logo:hover {
   background: linear-gradient(to right, #ff4e50, #f9d423);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: background 0.5s ease-in-out; 
 }
