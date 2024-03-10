@@ -2,11 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: gilroy;
+  src: url(/Gilroy-Regular.ttf);
+}
+*{
+  font-family: gilroy;
+}
+
 /* button hover effect */
 .button:hover {
   background: linear-gradient(to right, #fd7e40, #ffc102);
   color: white;
   transition: color 0.5s ease-in-out; 
+}
+.button{
+  background-image: linear-gradient(to right, #81b8fd, #a1df70);
+  transition: background-image 0.5s ease-in-out, color 0.5s ease-in-out; 
 }
 
 .button-primary {
@@ -22,6 +34,11 @@
 }
 
 .color-text{
+  background: linear-gradient(to right, #ff4e50, #f9d423);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logo{
   background: linear-gradient(to right, #ff4e50, #f9d423);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

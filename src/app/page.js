@@ -6,11 +6,11 @@ import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
     <main>
-      <div className=" bg-[#000000] pb-10">
+      <div className=" pb-10">
       <div className=" max-w-7xl mx-auto px-2 md:px-5">
         <Navbar />
         <Hero/>
-        <Featured/>
+        {/* <Featured/> */}
       </div>
       </div>
       <div className=" bg-[#fd7f3e] md:py-20 pt-20 pb-4">
