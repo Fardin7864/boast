@@ -5,6 +5,7 @@
 /* button hover effect */
 .button:hover {
   background: linear-gradient(to right, #fd7e40, #ffc102);
+  color: white;
   transition: color 0.5s ease-in-out; 
 }
 
