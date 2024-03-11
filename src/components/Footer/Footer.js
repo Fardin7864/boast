@@ -20,7 +20,7 @@ const Footer = () => {
         <p className="text-justify lg:w-1/2">It is simple! Once you join Boast free membership, you can shop at any of our partner brands. Then, share about your purchase on your social media channels, tagging the brand and get a cashback ranging from 10-100% depending on your social influencing power.</p>
       </div>
       <div className="w-full flex flex-col items-center">
-        <p>2024 BOAST All rights reserved. Made with &hearts;</p>
+        <p>2024 BOAST All rights reserved.</p>
       </div>
     </div>
   );
