@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Cards = ({content, image}) => {
   return (
-    <div>
+    <div data-aos="zoom-in">
       <Image
         src={content}
         width={900}
