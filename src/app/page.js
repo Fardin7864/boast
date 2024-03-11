@@ -72,11 +72,11 @@ export default function Home() {
         </div>
       </div>
       {/* Footer section */}
-      <div className=" pt-3 pb-4">
+      {/* <div className=" pt-3 pb-4">
         <div className=" max-w-7xl mx-auto px-2 md:px-5">
           <Footer />
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }
