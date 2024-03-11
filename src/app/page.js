@@ -1,4 +1,5 @@
 import Featured from "@/client/Featured";
+import Card from "@/components/CardSection/Card";
 import Hero from "@/components/Hero";
 import Message from "@/components/Message";
 import Navbar from "@/components/Navbar";
@@ -28,6 +29,11 @@ export default function Home() {
       <div className=" bg-[#81b8fd] md:py-20 pt-20 pb-4">
       <div className=" max-w-7xl mx-auto px-2 md:px-5">
         <Message shortMessage="How Does it Work?" fullMessage="It's simple! Once you join Boast's free membership, you can shop at any of our partner brands Then, share about your purchase on your social media channels, tagging the brand and get a cashback ranging from 10-100% depending open your social influencing power." image="/3rdmessage.png"/>
+      </div>
+      </div>
+      <div className=" bg-white md:py-20 pt-20 pb-4">
+      <div className=" max-w-7xl mx-auto px-2 md:px-5">
+          <Card/>
       </div>
       </div>
     </main>
